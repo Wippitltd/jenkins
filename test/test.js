@@ -67,15 +67,15 @@ describe('Test Suite 2', function() {
     });
 });
 
-describe('Test Suite - with hook 1', function() {
+describe('Test Suite - with hook 2', function() {
     before(function() {
-        answer = 44;
+        answer = 45;
     });
 
     describe('Scenario 1', function() {
 
-        it('Equals Check for 44', function() {
-            expect(answer).to.equal(44);
+        it('Equals Check for 45', function() {
+            expect(answer).to.equal(45);
         })
     });
 });
